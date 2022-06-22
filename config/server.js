@@ -5,5 +5,8 @@ autoReload: { 'enabled': true } , admin: {
 auth: {
 secret: env('ADMIN_JWT_SECRET', 'yFnJKphbMeSKbgGW7XanRg=='),
 },
+app: {
+    keys: env.array('APP_KEYS'),
+  },
 },
 });
