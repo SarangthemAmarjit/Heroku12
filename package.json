@@ -4,10 +4,14 @@
   "version": "0.1.0",
   "description": "A Strapi application",
   "scripts": {
+    "dev": "env DATABASE_URL=$(heroku config:get DATABASE_URL -a back-end) NODE_ENV='development' node ./server.js",
     "develop": "strapi develop",
-    "start": "strapi start",
+    "start": "env NODE_ENV='develop' node ./server.js",
     "build": "strapi build",
     "strapi": "strapi"
+  
+  
+   
   },
   "dependencies": {
     "@strapi/plugin-i18n": "4.2.0",
