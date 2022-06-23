@@ -8,7 +8,7 @@
     "description": ""
   },
   "options": {
-    "draftAndPublish": false
+    "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
@@ -29,6 +29,11 @@
       "default": "Orange",
       "unique": true,
       "required": true
+    },
+    "item_3": {
+      "type": "text",
+      "required": true,
+      "unique": true
     }
   }
 }
