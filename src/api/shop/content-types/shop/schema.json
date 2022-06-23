@@ -13,27 +13,13 @@
   "pluginOptions": {},
   "attributes": {
     "Shop_id": {
-      "type": "text",
-      "required": true,
-      "unique": true,
-      "default": "1"
+      "type": "integer"
     },
-    "item_1": {
-      "type": "text",
-      "default": "Apple",
-      "unique": true,
-      "required": true
+    "Address": {
+      "type": "string"
     },
-    "item_2": {
-      "type": "text",
-      "default": "Orange",
-      "unique": true,
-      "required": true
-    },
-    "item_3": {
-      "type": "text",
-      "required": true,
-      "unique": true
+    "Shop_name": {
+      "type": "string"
     }
   }
 }
