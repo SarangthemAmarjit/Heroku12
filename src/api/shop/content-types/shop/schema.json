@@ -4,21 +4,31 @@
   "info": {
     "singularName": "shop",
     "pluralName": "shops",
-    "displayName": "Shop"
+    "displayName": "Shop",
+    "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
     "Shop_id": {
-      "type": "text"
+      "type": "text",
+      "required": true,
+      "unique": true,
+      "default": "1"
     },
     "item_1": {
-      "type": "text"
+      "type": "text",
+      "default": "Apple",
+      "unique": true,
+      "required": true
     },
     "item_2": {
-      "type": "text"
+      "type": "text",
+      "default": "Orange",
+      "unique": true,
+      "required": true
     }
   }
 }
