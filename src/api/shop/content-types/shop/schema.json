@@ -12,13 +12,13 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Shop_id": {
+    "shop_id": {
       "type": "integer"
     },
-    "Address": {
+    "address": {
       "type": "string"
     },
-    "Shop_name": {
+    "shop_name": {
       "type": "string"
     }
   }
