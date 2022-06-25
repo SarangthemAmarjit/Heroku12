@@ -4,7 +4,8 @@
   "info": {
     "singularName": "application-form",
     "pluralName": "application-forms",
-    "displayName": "ApplicationForm"
+    "displayName": "ApplicationForm",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -36,6 +37,18 @@
         "female",
         "other"
       ]
+    },
+    "post": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::post.post",
+      "inversedBy": "application_form"
+    },
+    "qualification": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::qualification.qualification",
+      "inversedBy": "application_form"
     }
   }
 }
