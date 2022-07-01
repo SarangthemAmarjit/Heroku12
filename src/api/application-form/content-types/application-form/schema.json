@@ -22,7 +22,7 @@
       "type": "password"
     },
     "number": {
-      "type": "integer"
+      "type": "biginteger"
     },
     "address": {
       "type": "text"
